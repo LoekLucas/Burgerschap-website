@@ -1,6 +1,6 @@
 body {
     background-color: #fdc3db;
-    font-family: Arial, "Helvetica Neue", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
 
@@ -12,19 +12,45 @@ h1 {
 
 /*ID's*/
 #mainHeading {
-    color: #fc2397;
+    float: left;
+    padding: 16px;
+    margin-left: 249px;
+}
+
+#topNav {
+    background-color: #FC5D9D;
+    text-align: center;
+    margin-left: 290px;
+    height: 40px;
+    width: 320px;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 16px;
 }
 
 #navigation {
     background-color: #FC5D9D;
     text-align: center;
     height: 40px;
+    border-radius: 8px;
+}
+
+#titleText {
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFFFFF;
 }
 
 #introText {
     text-align: center;
     width: 471px;
     margin: 0px auto;
+    font-weight: 700;
+    color: #fff;
+}
+
+#headerText {
+    color: #fc2397;
+    font-weight: 600;
 }
 
 #profilePicture {
@@ -40,7 +66,7 @@ h1 {
 
 #heroShot {
     display: block;
-    margin: 0 auto;
+    margin-bottom: 16px;
     max-width: 100%;
     /* Ensure the image doesn't exceed its container */
     height: auto;
